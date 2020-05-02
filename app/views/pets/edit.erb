@@ -8,7 +8,7 @@
 
    <br><br>
 
-   <input type="text" name="pet_name" id="pet_name" value="<%=@pet.name%>">
+   <input type="text" name="pet[name]" id="pet_name" value="<%=@pet.name%>">
 
    <br><br>
 
@@ -25,10 +25,10 @@
    <label>and/or, create a new owner:</label>
           <br><br>
           <label>name:</label>
-            <input type="radio" name="owner[name]" id="owner_name">
+            <input type="text" name="owner[name]" id="owner_name">
           <br><br>
 
-   <input type="submit" value="Update Pet" name="Update Pet">
+   <input type="submit" value="Update Pet">
 
  </form>
 
